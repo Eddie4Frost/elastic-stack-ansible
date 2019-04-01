@@ -1,0 +1,5 @@
+- hosts: vm
+  user: root
+  sudo: yes
+  roles:
+    - role-elk
